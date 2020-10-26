@@ -1,0 +1,47 @@
+header {
+   color: white;
+}
+#header-top {
+   height: 90px;
+   background-color: #2C3E50;
+}
+
+#nav-bar {
+   text-align: right;
+}
+
+
+#jumbotron {
+   height: 400px;
+   background-color: #1BBC9C;
+}
+
+#portfolio {
+}
+
+#portfolio h2 {
+   text-align: center;
+}
+
+.card {
+   height: 200px;
+   background-color: yellow;
+   border: 1px solid black;
+}
+
+#about {
+   background-color: #1BBC9C;
+   color: white;
+}
+
+#contact {
+}
+
+#footer-top {
+   background-color: #3A546D;
+}
+
+#footer-bottom {
+   height: 90px;
+   background-color: #2C3E50;
+}
