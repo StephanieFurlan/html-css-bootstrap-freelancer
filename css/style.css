@@ -1,13 +1,15 @@
 header {
    color: white;
 }
+
+
 #header-top {
    height: 90px;
    background-color: #2C3E50;
 }
 
-#nav-bar {
-   text-align: right;
+.text-white {
+   color: #ECF0F0;
 }
 
 
@@ -31,7 +33,6 @@ header {
 
 #about {
    background-color: #1BBC9C;
-   color: white;
 }
 
 #contact {
@@ -42,6 +43,11 @@ header {
 }
 
 #footer-bottom {
-   height: 90px;
+   text-align: center;
+   height: 100px;
    background-color: #2C3E50;
+   line-height: 100px;
+}
+#footer-bottom span {
+   vertical-align: middle;
 }
