@@ -3,6 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
       <title></title>
@@ -12,7 +13,7 @@
          <div class="container">
             <div class="row" >
                <div class="col-xs-5">
-                  <h1>START BOOTSTRAP</h1>
+                  <h2>START BOOTSTRAP</h2>
                </div>
                <div class="col-xs-7">
                   <h2>MENU</h2>
@@ -21,8 +22,15 @@
          </div>
       </div>
       <div class="container-fluid text-white" id="jumbotron">
-         <div class="container">
+         <div class="container" id="jumbotron-content">
+            <img src="img/avataaars.svg" alt="">
             <h1>START BOOTSTRAP</h1>
+            <div class="divider">
+               <span>--------</span>
+               <i class="fas fa-star"></i>
+               <span>--------</span>
+            </div>
+            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTATOR</p>
          </div>
       </div>
 
@@ -30,28 +38,63 @@
 
 
       <main>
+
+
          <section class="container-fluid" id="portfolio">
-            <div class="container">
-               <h2>PORFOLIO</h2>
+            <div class="container" id="portfolio-content">
+
+               <div class="divider">
+                  <h2>PORTFOLIO</h2>
+                  <span>--------</span>
+                  <i class="fas fa-star"></i>
+                  <span>--------</span>
+               </div>
                <div class="row">
-                  <div class="col-lg-4 col-md-6 col-xs-12 card">1</div>
-                  <div class="col-lg-4 col-md-6 col-xs-12 card">2</div>
-                  <div class="col-lg-4 col-md-6 col-xs-12 card">3</div>
-                  <div class="col-lg-4 col-md-6 col-xs-12 card">1</div>
-                  <div class="col-lg-4 col-md-6 col-xs-12 card">2</div>
-                  <div class="col-lg-4 col-md-6 col-xs-12 card">3</div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 card">
+                     <img src="img/cabin.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 card">
+                     <img src="img/cake.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 card">
+                     <img src="img/circus.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 card">
+                     <img src="img/game.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 card">
+                     <img src="img/safe.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 card">
+                     <img src="img/submarine.png" alt="">
+                  </div>
                </div>
             </div>
-
          </section>
+
+
          <section class="container-fluid text-white" id="about">
-            <div class="container">
-               <h2>ABOUT</h2>
-               <div class="row">
-                  <p class="col-md-6 col-xs-12">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                  <p class="col-md-6 col-xs-12">Whenever you are a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <div class="container" id="about-content">
+
+               <div class="divider">
+                  <h2>ABOUT</h2>
+                  <span>--------</span>
+                  <i class="fas fa-star"></i>
+                  <span>--------</span>
                </div>
-               <button type="button" name="button">SOME BUTTON</button>
+               <div class="row">
+                  <div class="col-md-5 col-md-offset-1 col-xs-12">
+                     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                  </div>
+                  <div class="col-md-5 col-xs-12">
+                     <p>
+                     Whenever you are a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                  </div>
+               </div>
+
+               <a href="#"><i class="fas fa-download"></i> Download</a>
+
+
             </div>
 
          </section>

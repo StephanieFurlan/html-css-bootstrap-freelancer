@@ -1,3 +1,7 @@
+body {
+   font-size: 16px;
+}
+
 header {
    color: white;
 }
@@ -12,31 +16,80 @@ header {
    color: #ECF0F0;
 }
 
+.container {
+
+}
+
 
 #jumbotron {
-   height: 400px;
    background-color: #1BBC9C;
 }
 
-#portfolio {
+#jumbotron-content img {
+   height: 260px;
 }
 
-#portfolio h2 {
+#jumbotron-content {
    text-align: center;
+   padding: 50px 0;
 }
+
+#jumbotron-content h1 {
+   font-size: 4vw;
+   /* font-weight: bold; */
+}
+
+#jumbotron-content p {
+   font-size: 1.8vw;
+}
+
+.divider {
+   text-align: center;
+   font-size: 1.8vw;
+   margin: 20px 0;
+}
+
+.divider h2 {
+   font-size: 48px;
+}
+
+#portfolio-content {
+   padding: 50px 0;
+}
+
+#portfolio-content img {
+   /* padding: 15px 0; */
+   border-radius: 25px;
+}
+
+
 
 .card {
-   height: 200px;
-   background-color: yellow;
-   border: 1px solid black;
+   height: 270px;
+   margin-bottom: 30px;
+}
+
+.card img {
+   height: 100%;
 }
 
 #about {
    background-color: #1BBC9C;
+
 }
 
-#contact {
+#about-content {
+   padding: 50px 0;
 }
+
+#about-content a {
+   color: inherit;
+   display: block;
+   text-align: center;
+}
+
+
+
 
 #footer-top {
    background-color: #3A546D;
