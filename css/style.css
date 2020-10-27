@@ -7,6 +7,10 @@
    text-align: center;
 }
 
+.divider h2 {
+   font-size: 2em;
+}
+
 .horizontal-line {
    margin: 15px 0 10px 0;
 }
@@ -33,13 +37,8 @@
    background-color: #2C3E50;
 }
 
-#jumbotron {
-   background-color: #1BBC9C;
-   text-align: center;
-}
-
-#jumbotron-content,
-#portfolio-content,
+#jumbotron,
+#portfolio,
 #about,
 #contact,
 #footer-top,
@@ -47,21 +46,31 @@
    padding: 30px 15px;
 }
 
-#jumbotron-content img {
+#jumbotron {
+   background-color: #1BBC9C;
+}
+
+#jumbotron img {
    width: 200px;
 }
-#jumbotron-content h1 {
+
+#jumbotron h1 {
    font-size: 2em;
 }
-#jumbotron-content p {
+
+#jumbotron p {
    font-size: 1.4em;
 }
 
 /* PORTFOLIO */
-#portfolio-content img {
+#portfolio img {
    width: 100%;
    border-radius: 25px;
    margin-bottom: 30px;
+}
+
+#portfolio img:hover {
+   background-color: red;
 }
 
 /* ABOUT */
@@ -69,61 +78,93 @@
    background-color: #1BBC9C;
 }
 
-#about-content a {
+#btn-center {
+   margin-top: 50px;
+}
+
+#btn-center a {
    color: inherit;
    display: inline-block;
-   text-align: center;
    margin: 0 auto;
    border: 1px solid white;
    border-radius: 5px;
    padding: 10px;
 }
 
-#btn-center {
-   text-align: center;
-   margin-top: 50px;
-}
+
 
 /* CONTACT */
-#contact {
-   height: 300px;
+input, textarea {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#send-btn {
+   background-color: #1BBC9C;
+   color: white;
 }
 
 /* FOOTER */
 #footer-top {
    background-color: #3A546D;
-   text-align: center;
 }
-#footer-top ul li {
-   display: inline-block;
+
+.list_inline {
+   line-height: 50px;
 }
 
 #footer-bottom {
-   text-align: center;
    background-color: #2C3E50;
 }
 
-@media (max-width: @screen-xs-max) {
-
-
+#footer-top p {
+   font-size: 1.5em;
 }
 
-@media only screen and (min-width: 768px) {
+#footer-top [class*="col-"] {
+   margin-bottom: 30px;
+}
 
-   #jumbotron-content img {
+#green-link {
+   color: #1BBC9C;
+}
+
+.social-links a {
+   color: inherit;
+   display: inline-block;
+   height: 50px;
+   width: 50px;
+   line-height: 50px;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin: 0 10px;
+}
+
+.social-links a i {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+   #jumbotron img {
      width: 250px;
    }
 
-   #jumbotron-content h1 {
+   #jumbotron h1 {
       font-size: 4.3em;
    }
 
-   #jumbotron-content p {
+   #jumbotron p {
       font-size: 1.8em;
    }
 
-   #jumbotron-content,
-   #portfolio-content,
+   #jumbotron,
+   #portfolio,
    #about,
    #contact,
    #footer-top,
@@ -131,8 +172,16 @@
       padding: 60px 10px;
    }
 
+   #about p {
+      font-size: 1.4em;
+   }
 
+   .divider h2 {
+      font-size: 4em;
+   }
 
-
+   #footer-top [class*="col-"] {
+      margin-bottom: 0px;
+   }
 
 }
