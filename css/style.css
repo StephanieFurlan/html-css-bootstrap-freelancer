@@ -3,56 +3,70 @@
    color: #ECF0F0;
 }
 
+.divider {
+   text-align: center;
+}
+
+.horizontal-line {
+   margin: 15px 0 10px 0;
+}
+
+.divider .horizontal-line hr {
+   display: inline-block;
+   width: 15%;
+   border: 2px solid;
+   border-radius: 5px;
+   margin: 0;
+}
+
+.divider .horizontal-line i {
+   line-height: 50px;
+   vertical-align: middle;
+   margin: 0 1%;
+   font-size: 2.2em;
+}
+
+
+/* HEADER */
 #header-top {
    height: 90px;
    background-color: #2C3E50;
 }
-
-
-
 
 #jumbotron {
    background-color: #1BBC9C;
    text-align: center;
 }
 
-#jumbotron-content {
-   padding: 50px 0;
+#jumbotron-content,
+#portfolio-content,
+#about,
+#contact,
+#footer-top,
+#footer-bottom {
+   padding: 30px 15px;
 }
 
 #jumbotron-content img {
-   width: 30%;
+   width: 200px;
+}
+#jumbotron-content h1 {
+   font-size: 2em;
+}
+#jumbotron-content p {
+   font-size: 1.4em;
 }
 
-
-.divider {
-   text-align: center;
-}
-
-
-#portfolio-content {
-   padding: 50px 0;
-}
-
+/* PORTFOLIO */
 #portfolio-content img {
    width: 100%;
    border-radius: 25px;
    margin-bottom: 30px;
 }
 
-
-
+/* ABOUT */
 #about {
    background-color: #1BBC9C;
-
-}
-
-#about-content {
-   padding: 50px 0;
-}
-
-#btn-center {
-   text-align: center;
 }
 
 #about-content a {
@@ -65,31 +79,60 @@
    padding: 10px;
 }
 
-.space {
+#btn-center {
+   text-align: center;
+   margin-top: 50px;
+}
+
+/* CONTACT */
+#contact {
    height: 300px;
 }
 
-
-
-
+/* FOOTER */
 #footer-top {
    background-color: #3A546D;
    text-align: center;
 }
-
 #footer-top ul li {
    display: inline-block;
 }
 
-
-
-
 #footer-bottom {
    text-align: center;
-   height: 100px;
    background-color: #2C3E50;
-   line-height: 100px;
 }
-#footer-bottom span {
-   vertical-align: middle;
+
+@media (max-width: @screen-xs-max) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+   #jumbotron-content img {
+     width: 250px;
+   }
+
+   #jumbotron-content h1 {
+      font-size: 4.3em;
+   }
+
+   #jumbotron-content p {
+      font-size: 1.8em;
+   }
+
+   #jumbotron-content,
+   #portfolio-content,
+   #about,
+   #contact,
+   #footer-top,
+   #footer-bottom {
+      padding: 60px 10px;
+   }
+
+
+
+
+
 }
