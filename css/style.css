@@ -37,6 +37,39 @@
    background-color: #2C3E50;
 }
 
+#header-top h2 {
+   margin: 0;
+   line-height: 90px;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+#header-top i {
+   display: inline-block;
+   font-size: 1.5em;
+   vertical-align: middle;
+   border: 1px solid;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+#icon-container {
+   line-height: 90px;
+}
+
+.list-inline li {
+   line-height: 90px;
+}
+
+.list-inline li a {
+   display: inline-block;
+   vertical-align: middle;
+   color: inherit;
+   font-weight: bold;
+   padding-left: 20px;
+}
+
+
 #jumbotron,
 #portfolio,
 #about,
@@ -182,6 +215,14 @@ input, textarea {
 
    #footer-top [class*="col-"] {
       margin-bottom: 0px;
+   }
+
+   #header-top h2 {
+      font-size: 2em;
+   }
+
+   #header-top a {
+      font-size: 1.2em;
    }
 
 }
